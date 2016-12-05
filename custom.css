@@ -14,7 +14,7 @@ body{
 }
 
 #big-title {
-  background-image: url(main.jpg);
+  background-image: url(main2.jpg);
   background-size: cover;
 /*  background-color: darkolivegreen;*/
   height: 400px;
@@ -22,12 +22,14 @@ body{
 
 h1{
   text-align: center;
+  letter-spacing: 5px;
   margin-top: 0px;
   padding-top: 50px;
   padding-bottom: 50px;
   vertical-align: middle;
   color: whitesmoke;
-  font-size: 4em;
+  font-size: 5em;
+  opacity: 0.75;
 }
 
 h3 {
@@ -38,6 +40,7 @@ h3 {
   max-width: 400px;
   margin: auto;
   color: whitesmoke;
+  opacity: 0.75;
 }
 
 .button {
