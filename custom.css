@@ -1,0 +1,82 @@
+*{
+  font-family: sans-serif;
+}
+
+html{
+  background-color: gainsboro;
+}
+
+body{
+  background-color: white;
+  max-width: 800px;
+  margin: auto;
+/*  padding: 5px;*/
+}
+
+#big-title {
+  background-image: url(main.jpg);
+  background-size: cover;
+/*  background-color: darkolivegreen;*/
+  height: 400px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  vertical-align: middle;
+  color: whitesmoke;
+  font-size: 4em;
+}
+
+h3 {
+  text-align: center;
+}
+
+#subtitle {
+  max-width: 400px;
+  margin: auto;
+  color: whitesmoke;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border-style: none;
+  align-content: center;
+  font-size: 1.5em;
+  margin: 5px auto;
+  padding: 5px 10px;
+  display: block;
+}
+
+.button:hover {
+  background-color: lightgrey;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+footer{
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+p{
+  padding: 0px 5px;
+}
+
+i, span{
+  vertical-align: middle;
+}
+
+#contact{
+  text-align: center
+}
